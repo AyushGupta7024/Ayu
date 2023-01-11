@@ -1,8 +1,8 @@
 main() {
-  print(makeFullNamePro("Jain", "Shreyash"));
+  print(makeFullNamePro("gupta", "Ayush"));
 
   print(makeFullNameNamedArgsNew("Mr.",
-      middleName: "Shreyash", lastName: "Jain"));
+      middleName: "Ayush", lastName: "gupta"));
 
   List<String> myStrList = ["Cake", "Pastry", "Pasta", "Cake"];
   List<int> lengths = [];
@@ -21,7 +21,7 @@ main() {
 
   List<int> updatedListLengths = myStrList.map((e) => e.length).toList();
 
-  String name = " shreyash   | jain";
+  String name = " Ayush   | gupta";
   String sortedName = name.trim();
   List<String> splitString = name.split("|");
   mySolution();
